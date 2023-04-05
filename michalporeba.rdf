@@ -1,0 +1,24 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://michals.blog/me> a foaf:Person ;
+    foaf:name "Michał Poręba" ;
+    foaf:givenname "Michał" ;
+    foaf:family_name "Poręba" ;
+    foaf:mbox <mailto:michalporeba@gmail.com> ;
+    foaf:weblog <https://michals.blog/> ;
+    foaf:holdsAccount [
+        a foaf:OnlineAccount ;
+        rdf:about <https://github.com/michalporeba> ;
+        foaf:accountName "michalporeba" ;
+        foaf:accountServiceHomepage <https://github.com/> ;
+        foaf:accountProfilePage <https://github.com/michalporeba>
+    ] ;
+    foaf:holdsAccount [
+        a foaf:OnlineAccount ;
+        rdf:about <https://twitter.com/michalincs> ;
+        foaf:accountServiceHomepage <https://twitter.com> ;
+        foaf:accountName "michalincs" ;
+        foaf:accountProfilePage <https://twitter.com/michalincs>
+    ] ;
+.

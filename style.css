@@ -1,0 +1,13 @@
+.image-holder{
+    height:350px;
+    max-width:650px;
+    background:blue;
+ }
+ .image-content{
+    height: 100%;
+    border-radius: 100%;
+    overflow:hidden;
+    background: url(images/profile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }

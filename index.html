@@ -5,17 +5,62 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        html,
+        body {
+            font-family: 'Open Sans';
+            background-color: beige;
+        }
+
+        img {
+            padding: 5px;
+            border: 1px solid rgba(78, 5, 5, 0.209);
+            background-color: #fff;
+        }
+    </style>
 </head>
 <body> 
-    <div class="container is-fluid mt-4 is-primary">
-        <figure class="image is-small">
-            <img class="is-rounded" src="images/profile.png">
-        </figure>
-        <h1>Michał Poręba</h1>
-    </div>
-    
-    
+    <section class="hero is-fullheight is-default is-bold">
+        <div class="hero-head">
+            
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-256x256">
+                            <img class="is-rounded" src="images/profile.png" />
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h1 class="title is-2">
+                            Michał Poręba
+                        </h1>
+                        <h2 class="subtitle is-4">some text
+                        </h2>
+                        <br>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-info is-outlined">
+                                Learn more
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="tabs is-centered">
+                    <ul>
+                        <li><a href="https://twitter.com/tnlphotos">Photo by Tiana Lea</a></li>
+                        <li><a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cover.html">
+                            Template based on BulmaTemplates</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--
     <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
